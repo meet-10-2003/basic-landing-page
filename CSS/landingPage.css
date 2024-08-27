@@ -1,0 +1,156 @@
+*,*::before,*::after{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    background-color: #2a2a2a;
+    color: #f1f5f9;
+}
+
+.container{
+    background: linear-gradient(260deg, rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url(../Images/palace-4320416_1280.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 30px;
+}
+
+.navigation-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 110px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #f1f5f9;
+    cursor: pointer;
+    padding-bottom: 3px;
+    transition: 0.35s all ease;
+}
+
+nav ul li a:hover{
+    color: rgb(192, 192, 192);
+}
+
+nav ul li:nth-child(6){
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: 0.35s all ease;
+}
+
+nav ul li:nth-child(6):hover{
+    background-color: rgb(79, 79, 241);
+    color: #f1f5f9 !important; 
+}
+
+nav ul li:nth-child(7){
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: 0.35s all ease;
+}
+
+nav ul li:nth-child(7):hover{
+    background-color: rgb(241, 103, 79);
+    color: #f1f5f9 !important;
+}
+
+main{
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-left: 10px;
+    gap: 10px;
+}
+
+.heading h1{
+    font-size: 100px;
+}
+
+.heading input{
+    width: 350px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #f1f5f9;
+    background-color: #9a9a9a;
+    padding-right: 20px;
+}
+
+.heading input::placeholder{
+    color: #f1f5f9;
+}
+
+.content p{
+    max-width: 400px;
+    margin-top: 10px;
+}
+
+footer{
+    display: flex;
+    gap: 20px;
+}
+
+footer button{
+    padding: 8px 20px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+footer #red{
+    background-color: rgb(241, 103, 79);
+    color: #f1f5f9;
+    transition: 0.35s all ease;
+}
+
+footer #red:hover{
+    background-color: rgb(112, 27, 12);
+}
+
+footer #blue{
+    background-color: rgb(79, 79, 241);
+    color: #f1f5f9;
+    margin-left: 10px;
+    transition: 0.35s all ease;
+}
+
+footer #blue:hover{
+    background-color: rgb(17, 17, 134);
+}
